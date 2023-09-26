@@ -1,0 +1,18 @@
+{
+  "name": "schinator",
+  "version": "1.0.0",
+  "description": "Replaces all letter 's'es with 'sch'",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "web-ext": "^7.7.0"
+  }
+}

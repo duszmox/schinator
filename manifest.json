@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "schinator",
+  "version": "1.0",
+  "description": "Replace 's' with 'sch'",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/img-16.png",
+      "48": "images/img-48.png",
+      "128": "images/img-128.png"
+    }
+  },
+  "icons": {
+    "16": "images/img-16.png",
+    "48": "images/img-48.png",
+    "128": "images/img-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+node_modules
+.DS_Store
+web-ext-artifacts/schinator-1.0
+web-ext-artifacts
